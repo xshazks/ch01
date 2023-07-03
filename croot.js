@@ -15,7 +15,7 @@ var requestOptions = {
   </tr>`;
   
   
-  fetch("https://api.disneyapi.dev/characters", requestOptions)
+  fetch("https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15", requestOptions)
     .then(response => response.text())
     .then(result => tampilkan(result))
     .catch(error => console.log('error', error));
